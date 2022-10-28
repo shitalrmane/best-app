@@ -1,0 +1,316 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+
+/*--------------- header ------------*/
+
+.header{
+	height:60px;
+	width:100%;
+	position:fixed;
+	padding-top:1rem;
+	background-color:white;
+	box-shadow:0 0.5rem 1rem rgb(0 0 0 / 10%);
+	z-index:1000px;
+}
+.logo{
+	color:gray;
+	font-size:25px;
+	margin-left:100px;
+    padding-left:3%;
+	
+}
+.logo>span{
+	color:#f5248e;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	word-spacing:20px;
+	font-size:23px;
+	margin-left:55%;
+	padding-top:1rem;
+}
+.navbar a:hover{
+	color:red;
+}
+.header a{
+	text-decoration:none;
+	color:purple;
+	margin-top:0px;
+}
+
+/*----------------- home section ---------------*/
+
+.content{
+	height:100vh;
+	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/home-bg-img.png);
+	display:grid;
+	grid-template-areas:"box box1 box1 box1";
+}
+.box{
+	height:400px;
+	font-size:40px;
+	margin-top:200px;
+	margin-left:80px;
+	grid-area:box;
+	//border:2px solid black;
+}
+.box>span{
+	color:#ed1682;
+	font-size:50px;
+}
+.box p{
+	color:#1c1116d9;
+    font-size:19px;	
+}
+.box1{
+	grid-area:box1;
+	height:560px;
+    margin-top:80px;
+/*----
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 700px;
+  margin-right: auto; 
+
+}
+
+@keyframes my-animation {
+  from {
+    width: 200px;
+    top: 70px;
+  }
+  to {
+    width: 200px;
+    top: 110px;
+  }     
+       --------------*/
+}
+.btn{
+	height:35px;
+	font-size:20px;
+	margin:30px;
+	padding:5px;
+	color:white;
+	border-radius:20px;
+	background-image:linear-gradient(60deg, purple, #f5248e);
+}
+.btn:hover{
+	margin:20px;
+	padding:10px;
+}
+.box1 img{
+	height:100%;	
+}
+/*-------------------features -------------*/
+.feature{
+	height:100vh;
+	width:100%;
+	text-align:center;
+}
+.featurebox{
+	height:600px;
+	width:100%;
+	background-color:#c5b8ba1c;
+	margin-top:0px;
+}
+.feature h1{
+	margin:40px;
+	color:purple;
+	font-size:40px;
+}
+.feature p{
+	color:#1c1116d9;
+}
+.feature img{
+	height:150px;
+	width:150px;
+}
+.feature1{
+	border:1px solid black;
+	height:350px;
+	width:330px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:0 0.5rem 1rem rgb(0 0 0 / 10%);
+	margin-left:80px;
+	float:left;
+	
+}
+.botn{
+	height:35px;
+	font-size:20px;
+	padding:5px;
+	color:white;
+	border-radius:20px;
+	background-image:linear-gradient(60deg, purple, #f5248e);
+}
+.botn:hover{
+	padding:10px;
+}
+
+/*--------------- about --------------*/
+
+.About  h1{
+	margin-top:40px;
+	font-size:40px;
+	text-align:center;
+	color:purple;
+}
+.aboutbox{
+	height:100vh;
+	width:100%;
+	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/about-bg.png);
+	display:grid;
+	grid-template-areas:"about1 about1 about2 about2";
+}
+.about1{
+	grid-area:about1;
+}
+.about1 img{
+	height:500px;
+	margin-left:100px;
+}
+.about2{
+	grid-area:about2;
+}
+.about2  h2{
+	color:purple;
+	font-size:35px;
+	margin-top:100px;
+}
+.about2  p{
+	font-size:20px;
+	margin-top:20px;
+}
+.about3 {
+	color:white;
+	height:200px;
+	width:100%;
+	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/subscribe-bg.png);	
+}
+.about3 h1{
+	text-align:center;
+	margin-top:15px;
+}
+.about3 p{
+	font-size:15px;
+	margin:50px;
+}
+.bton{
+	height:60px;
+	font-size:20px;
+	margin-top:15px;
+	margin-left:30px;
+	padding:5px;
+	color:white;
+	border-radius:20px;
+	background-image:linear-gradient(60deg, purple, #f5248e);
+}
+.bton:hover{
+	padding:9px;
+}
+/*-------------review--------------*/
+.review{
+	height:100vh;
+	width:100%;
+	text-align:center;
+}
+.reviewbox{
+	height:600px;
+	width:100%;
+	background-color:#c5b8ba1c;
+	margin-top:0px;
+}
+.review h1{
+	margin:50px;
+	color:#971297d9;
+	font-size:35px;
+}
+.review h2{
+	color:#f5248e;
+}
+.review img{
+	height:70px;
+	width:70px;
+	margin-top:20px;
+	border-radius:50%;
+}
+.star img{
+	width:15px;
+	height:16px;
+}
+.review1{
+	border:1px solid black;
+	height:350px;
+	width:350px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:0 0.5rem 1rem rgb(0 0 0 / 10%);
+	margin-left:76px;
+	float:left;	
+}
+.review1 p{
+	color:#1c1116d9;
+}
+/*---------------- pricing ----------*/
+
+.pricing{
+	height:100vh;
+	width:100%;
+	text-align:center;
+}
+.pricingbox{
+	height:600px;
+	width:100%;
+	background-color:#c5b8ba1c;
+	margin-top:0px;
+}
+.pricing h1{
+	margin:50px;
+	color:#971297d9;
+	font-size:35px;
+}
+.pricing h2{
+	color:#f5248e;
+	font-size:27px;
+	margin:10px;
+}
+.pricing b{
+	font-size:40px;
+}
+.pricing1{
+    border:1px solid black;
+	height:400px;
+	width:350px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:0 0.5rem 1rem rgb(0 0 0 / 10%);
+	margin-left:76px;
+	float:left;
+}
+.buton{
+	height:60px;
+	font-size:20px;
+	margin-top:15px;
+	margin-left:30px;
+	padding:5px;
+	color:white;
+	border-radius:20px;
+	background-image:linear-gradient(60deg, purple, #f5248e);
+}
+.buton:hover{
+	padding:9px;
+}
