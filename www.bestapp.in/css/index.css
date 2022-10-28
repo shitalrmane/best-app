@@ -47,7 +47,7 @@
 
 .content{
 	height:100vh;
-	background-image:url(Gallery\home-bg-img.png);
+	background-image:url("Gallery\home-bg-img.png");
 	display:grid;
 	grid-template-areas:"box box1 box1 box1";
 }
