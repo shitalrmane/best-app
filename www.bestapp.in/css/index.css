@@ -47,7 +47,7 @@
 
 .content{
 	height:100vh;
-	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/home-bg-img.png);
+	background-image:url(D:\Shital-Ramchandra-Mane\best-app\www.bestapp.in\Gallery\home-bg-img.png);
 	display:grid;
 	grid-template-areas:"box box1 box1 box1";
 }
@@ -172,7 +172,7 @@
 .aboutbox{
 	height:100vh;
 	width:100%;
-	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/about-bg.png);
+	background-image:url(D:\Shital-Ramchandra-Mane\best-app\www.bestapp.in\Gallery\about-bg.png);
 	display:grid;
 	grid-template-areas:"about1 about1 about2 about2";
 }
@@ -199,7 +199,7 @@
 	color:white;
 	height:200px;
 	width:100%;
-	background-image:url(D:/Shital-Ramchandra-Mane/css/www.bestapp.in/Gallery/subscribe-bg.png);	
+	background-image:url(D:\Shital-Ramchandra-Mane\best-app\www.bestapp.in\Gallery\subscribe-bg.png);	
 }
 .about3 h1{
 	text-align:center;
