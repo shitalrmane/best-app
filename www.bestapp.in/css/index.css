@@ -196,10 +196,10 @@
 	margin-top:20px;
 }
 .about3 {
-	color:white;
+	color:rgb(61, 36, 36);
 	height:200px;
 	width:100%;
-	background-image:url(D:\Shital-Ramchandra-Mane\best-app\www.bestapp.in\Gallery\subscribe-bg.png);	
+	background-image:url(Gallery\subscribe-bg.png);	
 }
 .about3 h1{
 	text-align:center;
